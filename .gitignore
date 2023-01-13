@@ -1,0 +1,25 @@
+# ignore everything
+/*
+/*/
+# but not these
+!.tmux.conf
+!/.config/
+!/.gitignore 
+!/.tmux/
+!/README.md
+
+# Got to remove these coz the can leak some personal info 
+.config/*.log
+.config/nvim
+.config/lazygit
+.config/btop/btop.log
+.config/lazygit
+.config/lazygit/state.yml
+.config/btop/btop.log
+.config/lazygit/state.yml
+
+.config/btop/btop.log
+.config/lazygit/state.yml
+.tmux/resurrect
+
+.tmux/plugins

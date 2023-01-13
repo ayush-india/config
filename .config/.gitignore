@@ -1,0 +1,14 @@
+# ignore everything
+/*
+/*/
+fish/fishd.*
+
+# but not these
+!/btop/
+!/compton/
+!/awesome/
+!/fish/
+!/lazygit/
+!/nnn/
+!/rofi/
+!.gitignore
