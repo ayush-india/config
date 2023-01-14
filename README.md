@@ -5,7 +5,7 @@ NOTE: remove all fish.tmp. files form the fish dir to remove all the temporaye e
  required Prgrame to install
 
 nnn a freaking nice file manger
-tmux comme u need it
+tmux come on u need it
 GIMP image editor
  nvim (latest version)
  discord
@@ -18,11 +18,10 @@ GIMP image editor
  jetbarins mono nerd font
  nitrogen
  rofi(app-launcher)
- vlc
-
+termusic its the best music player
  
 NVIM config 
 i have my own config (inspired from nvchad's config)
-at https://github.com/ayush-india/.nvim
+at https://github.com/ayush-india/nvim
 GOat 
 
