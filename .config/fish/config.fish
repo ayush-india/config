@@ -9,7 +9,7 @@ set -g fish_prompt_pwd_dir_length 3
 set -g theme_display_user yes
 set -g theme_hide_hostname no
 set -g theme_hostname always
-set -gx EDITOR vim
+set -gx EDITOR nvim
 set -gx TERMINAL qterminal
 
 # aliases
@@ -17,6 +17,8 @@ alias ls "ls -p -G"
 alias la "ls -A"
 alias ll "ls -l"
 alias lla "ll -A"
+alias nv "nvim"
+alias c "clear"
 alias g git
 alias t "tmux -u"
 
