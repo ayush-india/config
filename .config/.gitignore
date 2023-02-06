@@ -5,6 +5,7 @@ fish/fishd.*
 
 # but not these
 !/btop/
+!/so/
 !/compton/
 !/awesome/
 !/fish/
@@ -12,3 +13,4 @@ fish/fishd.*
 !/nnn/
 !/rofi/
 !.gitignore
+!README.md
