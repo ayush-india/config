@@ -34,7 +34,7 @@ title_primary   = ["BLUE", "red"] # `BLUE` will be skipped.
 title_secondary = "yellow"
 
 # Lower precision values can use only 3 digits.
-highlight          = "yellow"
-highlight_inactive = "light yellow"
+highlight          = "light green"
+highlight_inactive = "green"
 # Note: you may want to change hightlight_text for darker terminal themes.
-highlight_text     = "black" # or "default"
+highlight_text     = "blue" # or "default"
