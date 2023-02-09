@@ -5,6 +5,7 @@ NOTE: remove all fish.tmp. files form the fish dir to remove all the temporaye e
  required Prgrame to install
 
 nnn a freaking nice file manger
+sccahe (a cacheing system for rust)
 tmux comme u need it
 so (its in yout /usr/bin) a tui for stackvoerflwo
 GIMP image editor
