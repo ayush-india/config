@@ -1,4 +1,4 @@
- Hello it is all of the config files which i use on my Lubuntu system 
+ Hello it is all of the config files which i use on my Lubuntu system and also ubunut
 
 NOTE: remove all fish.tmp. files form the fish dir to remove all the temporaye enviroment variables
  required : Goneovim https://github.com/akiyosi/goneovim
