@@ -85,7 +85,7 @@ awful.layout.layouts = {
 	awful.layout.suit.tile.left,
 	awful.layout.suit.tile.bottom,
 	awful.layout.suit.tile.top,
-    -- awful.layout.suit.max,
+	-- awful.layout.suit.max,
 	-- awful.layout.suit.spiral,
 	-- awful.layout.suit.floating,
 }
@@ -277,7 +277,6 @@ globalkeys = gears.table.join(
 		awful.util.spawn("rofi -show run")
 	end, { description = "runs all programs in bin", group = "launcher" }),
 
-
 	awful.key({ modkey }, "w", function()
 		awful.util.spawn("rofi -show window")
 	end, { description = "switch between window", group = "launcher" }),
@@ -285,7 +284,6 @@ globalkeys = gears.table.join(
 	awful.key({ modkey }, "p", function()
 		awful.util.spawn("rofi -show drun")
 	end, { description = "runs all programs installed", group = "launcher" }),
-
 
 	awful.key({ modkey }, "n", function()
 		awful.util.spawn("goneovim")
@@ -597,5 +595,6 @@ end)
 -- }}}
 
 awful.spawn.with_shell("compton")
+awful.spawn.with_shell("sudo ./mouseless --config ~/.config/mouseless/config.yaml --debug")
 -- awful.spawn.with_shell("vlc")
 awful.spawn.with_shell("nitrogen --set-zoom-fill --restore")
