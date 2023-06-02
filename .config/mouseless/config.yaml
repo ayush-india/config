@@ -26,8 +26,8 @@ layers:
   bindings:
     # when tab is held and another key pressed, activate mouse layer
     tab: tap-hold-next tab ; toggle-layer mouse ; 500
-    # when a is for held activate mouse layer
-    a: toggle-layer mouse; 300
+    # when a is held activate mouse layer
+    space: tap-hold space ; toggle-layer mouse; 500
     # right alt key toggles arrows layer
     rightalt: toggle-layer arrows
     # switch escape with capslock
@@ -44,9 +44,9 @@ layers:
     space: layer mouse
     r: reload-config
     l: move  1  0
-    j: move -1  0
-    k: move  0  1
-    i: move  0 -1
+    h: move -1  0
+    j: move  0  1
+    k: move  0 -1
     p: scroll up
     n: scroll down
     leftalt: speed 4.0
