@@ -44,9 +44,9 @@ layers:
     space: layer mouse
     r: reload-config
     l: move  1  0
-    h: move -1  0
-    j: move  0  1
-    k: move  0 -1
+    j: move -1  0
+    k: move  0  1
+    i: move  0 -1
     p: scroll up
     n: scroll down
     a: speed 4.0
