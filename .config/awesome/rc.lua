@@ -595,6 +595,7 @@ end)
 -- }}}
 
 awful.spawn.with_shell("compton")
-awful.spawn.with_shell("sudo ./mouseless --config ~/.config/mouseless/config.yaml --debug")
+
+awful.spawn.with_shell("sudo mouseless --config ~/.config/mouseless/config.yaml")
 -- awful.spawn.with_shell("vlc")
 awful.spawn.with_shell("nitrogen --set-zoom-fill --restore")
