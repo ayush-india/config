@@ -6,7 +6,7 @@ devices:
 # startCommand: "setxkbmap de"
 
 # the default speed for mouse movement and scrolling
-baseMouseSpeed: 750.0
+baseMouseSpeed: 1000.0
 baseScrollSpeed: 20.0
 
 # the time it takes to accelerate to baseMouseSpeed (in ms), 0 to reach top speed immediately
@@ -16,8 +16,8 @@ mouseAccelerationCurve: 2.0
 # speed of the mouse when it starts moving
 startMouseSpeed: 0.0
 # same for deceleration
-mouseDecelerationTime: 300.0
-mouseDecelerationCurve: 3.0
+mouseDecelerationTime: 0
+mouseDecelerationCurve: 1.0
 
 # the rest of the config defines the layers with their bindings
 layers:
