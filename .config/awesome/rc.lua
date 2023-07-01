@@ -275,7 +275,7 @@ globalkeys = gears.table.join(
 
 	awful.key({ modkey }, "d", function()
 		awful.util.spawn("rofi -show run")
-	end, { description = "runs all programs in bin", group = "launcher" }),
+	end, { description = "list all programs in bin", group = "launcher" }),
 
 	awful.key({ modkey }, "w", function()
 		awful.util.spawn("rofi -show window")
@@ -283,7 +283,11 @@ globalkeys = gears.table.join(
 
 	awful.key({ modkey }, "p", function()
 		awful.util.spawn("rofi -show drun")
-	end, { description = "runs all programs installed", group = "launcher" }),
+	end, { description = "list all programs installed", group = "launcher" }),
+
+	awful.key({ modkey }, "c", function()
+		awful.spawn.with_shell("MESA_GL_VERSION_OVERRIDE=2.1 MESA_GLSL_VERSION_OVERRIDE=330 sioyek") -- REMOVE MESA WHEN YOU GET A NEW PC ;)))
+	end, { description = "Open sioyek pdf viewer", group = "launcher" }),
 
 	awful.key({ modkey }, "n", function()
 		awful.util.spawn("goneovim")
