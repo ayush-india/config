@@ -16,6 +16,7 @@ set -gx TERMINAL qterminal
 # aliases
 alias ls "ls -p -G"
 alias la "ls -A"
+alias pdf "MESA_GL_VERSION_OVERRIDE=2.1 MESA_GLSL_VERSION_OVERRIDE=330 sioyek"
 alias ll "ls -l"
 alias lla "ll -A"
 alias nv "nvim"
