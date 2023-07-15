@@ -22,6 +22,7 @@ alias lla "ll -A"
 alias nv "nvim"
 alias c "clear"
 alias g git
+alias lz lazygit
 alias t "tmux -u"
 
 set -gx PATH bin $PATH
