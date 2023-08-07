@@ -19,9 +19,9 @@ GIMP image editor
  nitrogen
  rofi(app-launcher)
 termusic its the best music player
+musikcube is also an option 
  
 NVIM config 
 i have my own config (inspired from nvchad's config)
 at https://github.com/ayush-india/nvim
 GOat 
-
