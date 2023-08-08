@@ -28,7 +28,7 @@ alias t "tmux -u"
 set -gx PATH bin $PATH
 set -gx PATH ~/bin $PATH
 set -gx NNN_OPENER '~/.config/nnn/plugins/nuke'
-set -gx NNN_PLUG 'b:bulknew;d:diffs;f:fzcd;F:fzopen;l:launch;t:preview-tabbed;n:nuke;p:fzplug'
+set -gx NNN_PLUG 'b:bulknew;d:diffs;f:fzcd;F:fzopen;l:launch;t:preview-tui;n:nuke;p:fzplug'
 set -gx NNN_FIFO /tmp/nnn.fifo n
 set -gx PATH ~/.local/bin/ $PATH
 
