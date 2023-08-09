@@ -29,7 +29,7 @@ layers:
     # when a is held activate mouse layer
     leftalt : tap-hold leftalt; toggle-layer mouse; 500
     # right alt key toggles arrows layer
-    rightalt: toggle-layer arrows
+    compose: toggle-layer arrows
     # switch escape with capslock
     esc: capslock
     capslock: esc
