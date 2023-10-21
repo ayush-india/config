@@ -1,9 +1,9 @@
  Hello it is all of the config files which i use on my Lubuntu system 
 
 NOTE: remove all fish.tmp. files form the fish dir to remove all the temporaye enviroment variables
- required : Goneovim https://github.com/akiyosi/goneovim
  required Prgrame to install
 
+use eza insted of ls \n
 nnn a freaking nice file manger
 sccahe (a cacheing system for rust)
 tmux comme u need it
@@ -12,10 +12,10 @@ GIMP image editor
  nvim (latest version)
  discord
  google-chrome
- awesome(windnd-manager)
+ awesome(windnd-manager or somethign better if avaiable)
  btop(proc-manager)
- compton(picom if availabe)
- fish (terminal-emulator) with starship promit coz its the new goat and kitty terminal 
+ comptom(picom if availabe)
+ fish (terminal-emulator) and kitty terminal 
  lynx (the best web browser in the world)
  jetbarins mono nerd font
  nitrogen
