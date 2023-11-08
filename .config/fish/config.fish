@@ -9,7 +9,7 @@ set -g fish_prompt_pwd_dir_length 3
 set -g theme_display_user yes
 set -g theme_hide_hostname no
 set -g theme_hostname always
-set -gx EDITOR nvim
+set -gx EDITOR vim
 set -gx RUSTC_WRAPPER "/usr/bin/sccache"
 set -gx TERMINAL qterminal
 
