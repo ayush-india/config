@@ -5,6 +5,7 @@ fish/fishd.*
 
 # but not these
 !/btop/
+!/st/
 !/so/
 !/compton/
 !/mouseless/

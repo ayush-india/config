@@ -3,7 +3,7 @@
 NOTE: remove all fish.tmp. files form the fish dir to remove all the temporaye enviroment variables
  required Prgrame to install
 
-use eza insted of ls \n
+use eza insted of ls
 nnn a freaking nice file manger
 sccahe (a cacheing system for rust)
 tmux comme u need it
@@ -11,8 +11,8 @@ so (its in yout /usr/bin) a tui for stackvoerflwo
 GIMP image editor
  nvim (latest version)
  discord
- google-chrome
- awesome(windnd-manager or somethign better if avaiable)
+ st (latest form suckless)
+ awesome(window-manager or somethign better if avaiable like hyperlnad or i3 also)
  btop(proc-manager)
  comptom(picom if availabe)
  fish (terminal-emulator) and kitty terminal 
