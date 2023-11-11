@@ -64,7 +64,7 @@ beautiful.gap_single_client = true
 awful.mouse.snap.edge_enabled = false
 
 -- This is used later as the default terminal and editor to run.
-terminal = "qterminal"
+terminal = "st"
 editor = os.getenv("EDITOR") or "vim"
 editor_cmd = terminal .. " -e " .. editor
 
