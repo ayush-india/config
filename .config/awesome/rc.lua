@@ -335,28 +335,28 @@ clientkeys = gears.table.join(
 		if c.floating then
 			c:relative_move(0, 0, 0, -20)
 		else
-			awful.client.incwfact(0.025)
+			awful.client.incwfact(0.125)
 		end
 	end, { description = "Floating Resize Vertical -", group = "client" }),
 	awful.key({ modkey, "Control" }, "Down", function(c)
 		if c.floating then
 			c:relative_move(0, 0, 0, 20)
 		else
-			awful.client.incwfact(-0.025)
+			awful.client.incwfact(-0.125)
 		end
 	end, { description = "Floating Resize Vertical +", group = "client" }),
 	awful.key({ modkey, "Control" }, "Left", function(c)
 		if c.floating then
 			c:relative_move(0, 0, -20, 0)
 		else
-			awful.tag.incmwfact(-0.025)
+			awful.tag.incmwfact(-0.125)
 		end
 	end, { description = "Floating Resize Horizontal -", group = "client" }),
 	awful.key({ modkey, "Control" }, "Right", function(c)
 		if c.floating then
 			c:relative_move(0, 0, 20, 0)
 		else
-			awful.tag.incmwfact(0.025)
+			awful.tag.incmwfact(0.125)
 		end
 	end, { description = "Floating Resize Horizontal +", group = "client" }),
 
