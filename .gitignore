@@ -23,3 +23,5 @@
 .tmux/resurrect
 
 .tmux/plugins
+.config/st/st
+.config/st/x.o
