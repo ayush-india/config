@@ -362,16 +362,16 @@ clientkeys = gears.table.join(
 
 	-- Moving floating windows
 	awful.key({ modkey, "Shift" }, "Down", function(c)
-		c:relative_move(0, 20, 0, 0)
+		c:relative_move(0, 8, 0, 0)
 	end, { description = "Floating Move Down", group = "client" }),
 	awful.key({ modkey, "Shift" }, "Up", function(c)
-		c:relative_move(0, -20, 0, 0)
+		c:relative_move(0, -8, 0, 0)
 	end, { description = "Floating Move Up", group = "client" }),
 	awful.key({ modkey, "Shift" }, "Left", function(c)
-		c:relative_move(-20, 0, 0, 0)
+		c:relative_move(-8, 0, 0, 0)
 	end, { description = "Floating Move Left", group = "client" }),
 	awful.key({ modkey, "Shift" }, "Right", function(c)
-		c:relative_move(20, 0, 0, 0)
+		c:relative_move(8, 0, 0, 0)
 	end, { description = "Floating Move Right", group = "client" }),
 
 	-- Maximize unmaximize
