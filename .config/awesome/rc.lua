@@ -86,7 +86,7 @@ awful.layout.layouts = {
 	awful.layout.suit.tile.bottom,
 	awful.layout.suit.tile.top,
 	-- awful.layout.suit.max,
-	-- awful.layout.suit.spiral,
+	awful.layout.suit.spiral,
 	-- awful.layout.suit.floating,
 }
 -- }}}
@@ -235,6 +235,25 @@ root.buttons(gears.table.join(awful.button({}, 4, awful.tag.viewnext), awful.but
 -- {{{ Key bindings
 globalkeys = gears.table.join(
 	-- Focus on tags
+	-- Send a test notification
+-- info at https://awesomewm.org/doc/api/libraries/naughty.html#notify
+awful.key({ modkey, "Shift"   }, "t", function ()
+    --[[ local notif_icon = gears.surface.load_uncached(
+                       gears.filesystem.get_configuration_dir() .. "path/to/icon") ]]
+    naughty.notify({
+        -- screen = 1,
+        -- timeout = 0,-- in seconds
+        -- ignore_suspend = true,-- if true notif shows even if notifs are suspended via naughty.suspend
+         fg = "#ff0",
+        -- bg = "#ff0000",
+        title = "Test Title",
+        text = "Test Notification",
+        -- icon = gears.color.recolor_image(notif_icon, "#ff0"),
+        -- icon_size = 24,-- in px
+        border_width = 2,
+    })
+end,
+    {description = "send test notification", group = "awesome"}),
 
 	awful.key({ modkey }, "z", hotkeys_popup.show_help, { description = "show help", group = "awesome" }),
 
@@ -349,14 +368,14 @@ clientkeys = gears.table.join(
 		if c.floating then
 			c:relative_move(0, 0, -20, 0)
 		else
-			awful.tag.incmwfact(-0.125)
+			awful.tag.incmwfact(-0.015)
 		end
 	end, { description = "Floating Resize Horizontal -", group = "client" }),
 	awful.key({ modkey, "Control" }, "Right", function(c)
 		if c.floating then
 			c:relative_move(0, 0, 20, 0)
 		else
-			awful.tag.incmwfact(0.125)
+			awful.tag.incmwfact(0.015)
 		end
 	end, { description = "Floating Resize Horizontal +", group = "client" }),
 
