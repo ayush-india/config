@@ -27,6 +27,7 @@ alias t "tmux -u"
 
 set -gx PATH bin $PATH
 set -gx PATH ~/bin $PATH
+set -gx PYTHONPATH /usr/local/lib/python3.7/site-packages:/usr/lib/python3/dist-packages
 set -gx NNN_OPENER '~/.config/nnn/plugins/nuke'
 set -gx NNN_PLUG 'b:bulknew;d:diffs;f:fzcd;F:fzopen;l:launch;t:preview-tui;n:nuke;p:fzplug'
 set -gx NNN_FIFO /tmp/nnn.fifo n
