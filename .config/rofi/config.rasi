@@ -4,7 +4,7 @@ configuration{
     font: "Iosevka 12";
     show-icons: true;
     icon-theme: "Paper Mono";
-    terminal: "qterminal";
+    terminal: "st";
     drun-display-format: "{icon} {name}";
     location: 0;
     disable-history: false;
@@ -13,7 +13,7 @@ configuration{
 }
 /* TODO: pick some colours for gruv theme */
 
-@theme "gruv"
+@theme "forest"
 
 element-text, element-icon , mode-switcher {
     background-color: inherit;
@@ -97,4 +97,4 @@ button selected {
   background-color: @bg-col;
   text-color: @blue;
 }
-@import "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
+@import "/usr/share/rofi/themes/purple.rasi"

@@ -620,4 +620,5 @@ end)
 awful.spawn.with_shell("compton")
 awful.spawn.with_shell("mouseless")
 awful.spawn.with_shell("nitrogen --set-zoom-fill --restore")
+awful.spawn.with_shell("xfce4-power-manager")
 
