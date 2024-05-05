@@ -5,6 +5,8 @@ pcall(require, "luarocks.loader")
 -- Standard awesome library
 local gears = require("gears")
 local volume_widget = require("awesome-wm-widgets.volume-widget.volume")
+local logout_menu_widget = require("awesome-wm-widgets.logout-menu-widget.logout-menu")
+local net_speed_widget = require("awesome-wm-widgets.net-speed-widget.net-speed")
 local battery_widget = require("battery-widget")
 local awful = require("awful")
 require("awful.autofocus")
@@ -168,7 +170,7 @@ awful.screen.connect_for_each_screen(function(s)
   set_wallpaper(s)
 
   -- Each screen has its own tag table.
-  awful.tag({ "1", "2", "3", "4", "5", "6", "7", "8", "9" }, s, awful.layout.layouts[1])
+  awful.tag({ "1", "2", "3", "4", "5" }, s, awful.layout.layouts[1])
 
   -- Create a promptbox for each screen
   s.mypromptbox = awful.widget.prompt()
@@ -219,9 +221,15 @@ awful.screen.connect_for_each_screen(function(s)
       s.mypromptbox,
     },
     s.mytasklist, -- Middle widget
-    {           -- Right widgets
+    {            -- Right widgets
       layout = wibox.layout.fixed.horizontal,
-      volume_widget(),
+      spacing = 6,
+
+      s.systray,
+      net_speed_widget(),
+      volume_widget({
+        widget_type = "arc",
+      }),
       battery_widget({
         ac = "AC",
         adapter = "BAT0",
@@ -245,9 +253,7 @@ awful.screen.connect_for_each_screen(function(s)
         warn_full_battery = true,
         full_battery_icon = "~/Downloads/full_battery_icon.png",
       }),
-      layout = wibox.layout.fixed.horizontal,
-      mykeyboardlayout,
-      s.systray,
+      logout_menu_widget(),
       mytextclock,
       s.mylayoutbox,
     },
@@ -356,6 +362,24 @@ globalkeys = gears.table.join(
 
 clientkeys = gears.table.join(
 -- Handling window states
+  awful.key({}, "XF86AudioPlay", function()
+    awful.util.spawn("playerctl play-pause", false)
+  end),
+  awful.key({}, "XF86AudioNext", function()
+    awful.util.spawn("playerctl next", false)
+  end),
+  awful.key({}, "XF86AudioPrev", function()
+    awful.util.spawn("playerctl previous", false)
+  end),
+  awful.key({}, "XF86AudioRaiseVolume", function()
+    volume_widget.inc()
+  end),
+  awful.key({}, "XF86AudioLowerVolume", function()
+    volume_widget.dec()
+  end),
+  awful.key({}, "XF86AudioMute", function()
+    volume_widget.toggle()
+  end),
   awful.key({ modkey }, "f", function(c)
     c.fullscreen = not c.fullscreen
     c:raise()
