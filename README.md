@@ -15,7 +15,7 @@ GIMP image editor
  awesome(window-manager or somethign better if avaiable like hyperlnad or i3 also)
  btop(proc-manager)
  comptom(picom if availabe)
- fish (terminal-emulator) and kitty terminal 
+ fish (terminal-emulator) and alacatry
  lynx (the best web browser in the world)
  jetbarins mono nerd font
  nitrogen
@@ -43,3 +43,11 @@ bind -M insert \ec '__fzf_cd'
 bind -M insert \eC '__fzf_cd --hidden'
 bind -M insert \eO '__fzf_open'
 bind -M insert \eo '__fzf_open --editor'
+
+
+
+save new fonts in ~/.local/share/fonts and /usr/share/fonts/ 
+
+use fc-list(alacatry ka config file me hai command) to see if font installed
+
+see aeseome last commands to get to know how i make toucpad gestures working 
