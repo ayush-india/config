@@ -51,3 +51,6 @@ save new fonts in ~/.local/share/fonts and /usr/share/fonts/
 use fc-list(alacatry ka config file me hai command) to see if font installed
 
 see aeseome last commands to get to know how i make toucpad gestures working 
+
+https://github.com/jsspencer/pomo isntall this and make simple symbolic link 
+`sudo ln -sf /opt/pomodoro/pomo.sh /usr/local/bin/pomo`

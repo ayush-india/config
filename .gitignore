@@ -4,6 +4,9 @@
 # but not these
 !.tmux.conf
 !/.cargo/
+!/.vimrc
+!/.vim
+!/.viminfo
 !/.config/
 !.gitignore 
 !/.tmux/
@@ -44,3 +47,6 @@
 .config/qalculate
 .config/ayush-india config main .config-awesome.zip
 .config/fish/fish_variables
+.vim/swaps
+.vim/undo
+.viminfo
