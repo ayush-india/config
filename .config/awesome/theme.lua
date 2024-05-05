@@ -14,23 +14,20 @@ local theme = {}
 theme.font          = "JetBrains Mono Medium 12"
 
  -- TODO: pick some colours for gruv theme
-theme.bg_normal     = "#1e2125"
-theme.bg_focus      = "#1e2115"
-theme.bg_urgent     = "#ff0000"
-theme.bg_minimize   = "#444444"
-theme.bg_systray    = theme.bg_normal
-
-theme.fg_normal     = "#aaaaaa"
-theme.fg_focus      = "#dfffff"
-theme.fg_urgent     = "#ffffaf"
-theme.fg_minimize   = "#ffffff"
+theme.fg_normal  = "#DCDCCC"
+theme.fg_focus   = "#F0DFAF"
+theme.fg_urgent  = "#CC9393"
+theme.bg_normal  = "#3F3F3F"
+theme.bg_focus   = "#1E2320"
+theme.bg_urgent  = "#3F3F3F"
+theme.bg_systray = theme.bg_normal
 
 theme.useless_gap   = dpi(0)
 theme.border_width  = dpi(1)
-theme.border_normal = "#000000"
-theme.border_focus  = "#6699cc"
-theme.border_marked = "#91231c"
 
+theme.border_normal = "#3F3F3F"
+theme.border_focus  = "#6F6F6F"
+theme.border_marked = "#CC9393"
 -- There are other variable sets
 -- overriding the default one when
 -- defined, the sets are:

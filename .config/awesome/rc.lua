@@ -221,7 +221,7 @@ awful.screen.connect_for_each_screen(function(s)
       s.mypromptbox,
     },
     s.mytasklist, -- Middle widget
-    {            -- Right widgets
+    {           -- Right widgets
       layout = wibox.layout.fixed.horizontal,
       spacing = 6,
 
@@ -230,6 +230,7 @@ awful.screen.connect_for_each_screen(function(s)
       volume_widget({
         widget_type = "arc",
       }),
+
       battery_widget({
         ac = "AC",
         adapter = "BAT0",
@@ -362,6 +363,12 @@ globalkeys = gears.table.join(
 
 clientkeys = gears.table.join(
 -- Handling window states
+  awful.key({ modkey }, ";", function()
+    brightness_widget:inc()
+  end, { description = "increase brightness", group = "custom" }),
+  awful.key({ modkey, "Shift" }, ";", function()
+    brightness_widget:dec()
+  end, { description = "decrease brightness", group = "custom" }),
   awful.key({}, "XF86AudioPlay", function()
     awful.util.spawn("playerctl play-pause", false)
   end),
