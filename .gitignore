@@ -3,6 +3,7 @@
 /*/
 # but not these
 !.tmux.conf
+!/.cargo/config.toml
 !/.config/
 !.gitignore 
 !/.tmux/
