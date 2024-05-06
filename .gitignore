@@ -50,3 +50,5 @@
 .vim/swaps
 .vim/undo
 .viminfo
+.config/touchegg/.touchegg:0.lock
+.vim/.netrwhist
