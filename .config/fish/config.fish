@@ -8,6 +8,7 @@ set -g theme_color_scheme terminal-dark
 set -g fish_prompt_pwd_dir_length 3
 set -g theme_display_user yes
 set -g theme_hide_hostname no
+set -gx GIT_EDITOR vim
 set -g theme_hostname always
 set -gx EDITOR nvim
 # set -gx RUSTC_WRAPPER "/usr/bin/sccache" use only for old pc
