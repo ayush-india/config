@@ -3,6 +3,7 @@
 NOTE: remove all fish.tmp. files form the fish dir to remove all the temporaye enviroment variables
  required Prgrame to install
 
+stwich to g++ 12 for no error in nvim
 use eza insted of ls
 nnn a freaking nice file manger
 sccahe (a cacheing system for rust)
