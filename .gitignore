@@ -55,3 +55,6 @@
 .config/libreoffice/
 .config/QtProject.conf
 .config/godot
+.config/nnn/bookmarks
+.config/cmus
+.config/cava
