@@ -4,6 +4,7 @@ pcall(require, "luarocks.loader")
 
 -- Standard awesome library
 local gears = require("gears")
+local cmus_widget = require('awesome-wm-widgets.cmus-widget.cmus')
 local volume_widget = require("awesome-wm-widgets.volume-widget.volume")
 local logout_menu_widget = require("awesome-wm-widgets.logout-menu-widget.logout-menu")
 local net_speed_widget = require("awesome-wm-widgets.net-speed-widget.net-speed")
@@ -231,6 +232,8 @@ awful.screen.connect_for_each_screen(function(s)
         widget_type = "arc",
       }),
 
+			cmus_widget(),
+
       battery_widget({
         ac = "AC",
         adapter = "BAT0",
@@ -351,7 +354,7 @@ globalkeys = gears.table.join(
   end),
   awful.key({ modkey, "Shift" }, "w", awesome.restart, { description = "reload awesome", group = "awesome" }),
   awful.key({ modkey, "Shift" }, "Escape", awesome.quit, { description = "quit awesome", group = "awesome" }),
-  awful.key({ modkey, "Shift" }, "p", function()
+  awful.key({ modkey, "Shift" }, "l", function()
     awful.prompt.run({
       prompt = "Run Lua code: ",
       textbox = awful.screen.focused().mypromptbox.widget,
@@ -363,21 +366,18 @@ globalkeys = gears.table.join(
 
 clientkeys = gears.table.join(
 -- Handling window states
-  awful.key({ modkey }, ";", function()
-    brightness_widget:inc()
-  end, { description = "increase brightness", group = "custom" }),
-  awful.key({ modkey, "Shift" }, ";", function()
-    brightness_widget:dec()
-  end, { description = "decrease brightness", group = "custom" }),
-  awful.key({}, "XF86AudioPlay", function()
-    awful.util.spawn("playerctl play-pause", false)
-  end),
-  awful.key({}, "XF86AudioNext", function()
-    awful.util.spawn("playerctl next", false)
-  end),
-  awful.key({}, "XF86AudioPrev", function()
-    awful.util.spawn("playerctl previous", false)
-  end),
+				awful.key({ }, "XF86AudioPlay",  function () cmus_widget:play_pause()       end, {description = "play track",     group = "cmus"}),
+				awful.key({                 }, "XF86AudioNext",  function () cmus_widget:next_track() end, {description = "next track",     group = "cmus"}),
+				awful.key({                 }, "XF86AudioPrev",  function () cmus_widget:prev_track() end, {description = "previous track", group = "cmus"}),
+--   awful.key({}, "XF86AudioPlay", function()
+--     awful.util.spawn("playerctl play-pause", false)
+--   end),
+--   awful.key({}, "XF86AudioNext", function()
+--     awful.util.spawn("playerctl next", false)
+--   end),
+--   awful.key({}, "XF86AudioPrev", function()
+--     awful.util.spawn("playerctl previous", false)
+--   end),
   awful.key({}, "XF86AudioRaiseVolume", function()
     volume_widget.inc()
   end),
