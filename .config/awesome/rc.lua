@@ -354,7 +354,7 @@ globalkeys = gears.table.join(
   end),
   awful.key({ modkey, "Shift" }, "w", awesome.restart, { description = "reload awesome", group = "awesome" }),
   awful.key({ modkey, "Shift" }, "Escape", awesome.quit, { description = "quit awesome", group = "awesome" }),
-  awful.key({ modkey, "Shift" }, "l", function()
+  awful.key({ modkey, "Shift" }, "9", function()
     awful.prompt.run({
       prompt = "Run Lua code: ",
       textbox = awful.screen.focused().mypromptbox.widget,
