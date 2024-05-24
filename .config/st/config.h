@@ -96,30 +96,30 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-    // "#1d1f21",
-    // "#cc6666",
-    // "#b5bd68",
-    // "#f0c674",
-    // "#81a2be",
-    // "#b294bb",
-    // "#8abeb7",
-    // "#c5c8c6",
-    // "#666666",
-    // "#d54e53",
-    // "#b9ca4a",
-    // "#e7c547",
-    // "#7aa6da",
-    // "#c397d8",
-    // "#70c0b1",
-    // "#eaeaea",
-    // [255] = 0,
-    // "#cccccc",
-    // "#555555",
-    // "gray90",  /* default foreground colour */
-    // "#282828", /* default background colour */
-    "#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a",
-    "#a89984", "#928374", "#fb4934", "#b8bb26", "#fabd2f", "#83a598", "#d3869b",
-    "#8ec07c", "#ebdbb2", [255] = 0, "#cccccc", "#555555", "#ebdbb2", "#282828",
+    "#1d1f21",
+    "#cc6666",
+    "#b5bd68",
+    "#f0c674",
+    "#81a2be",
+    "#b294bb",
+    "#8abeb7",
+    "#c5c8c6",
+    "#666666",
+    "#d54e53",
+    "#b9ca4a",
+    "#e7c547",
+    "#7aa6da",
+    "#c397d8",
+    "#70c0b1",
+    "#eaeaea",
+    [255] = 0,
+    "#cccccc",
+    "#555555",
+    "gray90",  /* default foreground colour */
+    "#282828", /* default background colour */
+    // "#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a",
+    // "#a89984", "#928374", "#fb4934", "#b8bb26", "#fabd2f", "#83a598", "#d3869b",
+    // "#8ec07c", "#ebdbb2", [255] = 0, "#cccccc", "#555555", "#ebdbb2", "#282828",
 };
 
 /*
