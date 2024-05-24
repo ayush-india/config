@@ -12,7 +12,7 @@ set -gx GIT_EDITOR vim
 set -g theme_hostname always
 set -gx EDITOR nvim
 # set -gx RUSTC_WRAPPER "/usr/bin/sccache" use only for old pc
-set -gx TERMINAL alacritty
+set -gx TERMINAL st
 
 # aliases
 alias l "eza"
