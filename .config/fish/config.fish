@@ -1,4 +1,5 @@
-set fish_greeting ""
+set fish_greeting "isntall zoxide "
+set fish_greeting "❯ #install zoxidea eaz rg^C"
 
 set -gx TERM xterm-256color
 # fish_vi_key_bindings
@@ -15,11 +16,11 @@ set -gx EDITOR nvim
 set -gx TERMINAL st
 
 # aliases
-alias l "eza"
-alias la "eza -all"
+alias l "eza --icons=always --git"
+alias la "eza -all --icons=always --git"
 # alias pdf "MESA_GL_VERSION_OVERRIDE=2.1 MESA_GLSL_VERSION_OVERRIDE=330 sioyek"
 alias pdf "sioyek"
-alias ll "eza -l"
+alias ll "eza -l --icons=always --git"
 alias gpu "__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia"
 alias lla "ll -A"
 alias nv "nvim"
@@ -34,4 +35,4 @@ set -gx NNN_OPENER '~/.config/nnn/plugins/nuke'
 set -gx NNN_PLUG 'b:bulknew;d:diffs;f:fzcd;F:fzopen;l:launch;t:preview-tui;n:nuke;p:fzplug'
 set -gx NNN_FIFO /tmp/nnn.fifo n
 set -gx PATH ~/.local/bin/ $PATH
-
+zoxide init fish | source
