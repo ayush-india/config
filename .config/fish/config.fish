@@ -1,8 +1,6 @@
-set fish_greeting "isntall zoxide "
-set fish_greeting "❯ #install zoxidea eaz rg^C"
-
+set fish_greeting "leran beldner"
 set -gx TERM xterm-256color
-# fish_vi_key_bindings
+set  fish_vi_key_bindings
 
 # theme
 set -g theme_color_scheme terminal-dark
@@ -28,7 +26,14 @@ alias c "clear"
 alias g git
 alias lz lazygit
 alias t "tmux -u"
-
+function n
+	set tmp (mktemp -t "yazi-cwd.XXXXXX")
+	yazi $argv --cwd-file="$tmp"
+	if set cwd (cat -- "$tmp"); and [ -n "$cwd" ]; and [ "$cwd" != "$PWD" ]
+		cd -- "$cwd"
+	end
+	rm -f -- "$tmp"
+end
 set -gx PATH bin $PATH
 set -gx PATH ~/bin $PATH
 set -gx NNN_OPENER '~/.config/nnn/plugins/nuke'
