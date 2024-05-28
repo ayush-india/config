@@ -1,4 +1,4 @@
-set fish_greeting "leran beldner"
+set fish_greeting "leran beldner, there is a fast way to compute prime no its p*p <= n"
 set -gx TERM xterm-256color
 set  fish_vi_key_bindings
 
