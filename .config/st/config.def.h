@@ -5,7 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
+static char *font =
+    "JetBrainsMono Nerd Font:pixelsize=22:antialias=true:autohint=true";
+static char *font2 = 
+    "JetBrainsMono Nerd Font:pixelsize=22:antialias=true:autohint=true";
+
+
 static int borderpx = 2;
 
 /*
@@ -15,7 +20,7 @@ static int borderpx = 2;
  * 3: SHELL environment variable
  * 4: value of shell in /etc/passwd
  * 5: value of shell in config.h
- */
+*/
 static char *shell = "/bin/sh";
 char *utmp = NULL;
 /* scroll program: to enable use a string like "scroll" */
@@ -68,6 +73,18 @@ static unsigned int blinktimeout = 800;
 static unsigned int cursorthickness = 2;
 
 /*
+ * 1: render most of the lines/blocks characters without using the font for
+ *    perfect alignment between cells (U2500 - U259F except dashes/diagonals).
+ *    Bold affects lines thickness if boxdraw_bold is not 0. Italic is ignored.
+ * 0: disable (render all U25XX glyphs normally from the font).
+ */
+const int boxdraw = 1;
+const int boxdraw_bold = 1;
+
+/* braille (U28XX):  1: render as adjacent "pixels",  0: use font */
+const int boxdraw_braille = 1;
+
+/*
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
  * it
  */
@@ -93,55 +110,61 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 8;
 
+/* bg opacity */
+float alpha = 0.85;
+
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
-
-	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
-
-	[255] = 0,
-
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
-	"gray90", /* default foreground colour */
-	"black", /* default background colour */
+     "#1d1f21",
+     "#cc6666",
+     "#b5bd68",
+     "#f0c674",
+     "#81a2be",
+     "#b294bb",
+     "#8abeb7",
+     "#c5c8c6",
+     "#666666",
+     "#d54e53",
+     "#b9ca4a",
+     "#e7c547",
+     "#7aa6da",
+     "#c397d8",
+     "#70c0b1",
+     "#eaeaea",
+     [255] = 0,
+     "#cccccc",
+     "#555555",
+     "#282828", /* default background colour */
+     "gray90",  /* default foreground colour */
+     // "#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a",
+     // "#a89984", "#928374", "#fb4934", "#b8bb26", "#fabd2f", "#83a598", "#d3869b",
+     // "#8ec07c", "#ebdbb2", [255] = 0, "#cccccc", "#555555", "#ebdbb2", "#282828",
 };
-
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 258;
-unsigned int defaultbg = 259;
+unsigned int defaultfg = 259;
+unsigned int defaultbg = 258;
 unsigned int defaultcs = 256;
-static unsigned int defaultrcs = 257;
+unsigned int defaultrcs = 257;
 
 /*
- * Default shape of cursor
- * 2: Block ("█")
- * 4: Underline ("_")
- * 6: Bar ("|")
- * 7: Snowman ("☃")
+ * https://invisible-island.net/xterm/ctlseqs/ctlseqs.html#h4-Functions-using-CSI-_-ordered-by-the-final-character-lparen-s-rparen:CSI-Ps-SP-q.1D81
+ * Default style of cursor
+ * 0: blinking block
+ * 1: blinking block (default)
+ * 2: steady block ("█")
+ * 3: blinking underline
+ * 4: steady underline ("_")
+ * 5: blinking bar
+ * 6: steady bar ("|")
+ * 7: blinking st cursor
+ * 8: steady st cursor
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorstyle = 0;
+static Rune stcursor = 0x2603; /* snowman ("☃") */
 
 /*
  * Default columns and rows numbers
@@ -171,11 +194,50 @@ static unsigned int defaultattr = 11;
 static uint forcemousemod = ShiftMask;
 
 /*
+ * Xresources preferences to load at startup
+ */
+ResourcePref resources[] = {
+		{ "font",         STRING,  &font },
+		{ "color0",       STRING,  &colorname[0] },
+		{ "color1",       STRING,  &colorname[1] },
+		{ "color2",       STRING,  &colorname[2] },
+		{ "color3",       STRING,  &colorname[3] },
+		{ "color4",       STRING,  &colorname[4] },
+		{ "color5",       STRING,  &colorname[5] },
+		{ "color6",       STRING,  &colorname[6] },
+		{ "color7",       STRING,  &colorname[7] },
+		{ "color8",       STRING,  &colorname[8] },
+		{ "color9",       STRING,  &colorname[9] },
+		{ "color10",      STRING,  &colorname[10] },
+		{ "color11",      STRING,  &colorname[11] },
+		{ "color12",      STRING,  &colorname[12] },
+		{ "color13",      STRING,  &colorname[13] },
+		{ "color14",      STRING,  &colorname[14] },
+		{ "color15",      STRING,  &colorname[15] },
+		{ "background",   STRING,  &colorname[258] },
+		{ "foreground",   STRING,  &colorname[259] },
+		{ "cursorColor",  STRING,  &colorname[256] },
+		{ "termname",     STRING,  &termname },
+		{ "shell",        STRING,  &shell },
+		{ "minlatency",   INTEGER, &minlatency },
+		{ "maxlatency",   INTEGER, &maxlatency },
+		{ "blinktimeout", INTEGER, &blinktimeout },
+		{ "bellvolume",   INTEGER, &bellvolume },
+		{ "tabspaces",    INTEGER, &tabspaces },
+		{ "borderpx",     INTEGER, &borderpx },
+		{ "cwscale",      FLOAT,   &cwscale },
+		{ "chscale",      FLOAT,   &chscale },
+	  { "alpha",        FLOAT,   &alpha },
+};
+
+/*
  * Internal mouse shortcuts.
  * Beware that overloading Button1 will disable the selection.
  */
 static MouseShortcut mshortcuts[] = {
 	/* mask                 button   function        argument       release */
+	{ XK_ANY_MOD,           Button4, kscrollup,      {.i = 1},		0, /* !alt */ -1 },
+	{ XK_ANY_MOD,           Button5, kscrolldown,    {.i = 1},		0, /* !alt */ -1 },
 	{ XK_ANY_MOD,           Button2, selpaste,       {.i = 0},      1 },
 	{ ShiftMask,            Button4, ttysend,        {.s = "\033[5;2~"} },
 	{ XK_ANY_MOD,           Button4, ttysend,        {.s = "\031"} },
@@ -186,6 +248,33 @@ static MouseShortcut mshortcuts[] = {
 /* Internal keyboard shortcuts. */
 #define MODKEY Mod1Mask
 #define TERMMOD (ControlMask|ShiftMask)
+static char *openurlcmd[] = {"/bin/sh", "-c", "st-urlhandler -o",
+                             "externalpipe", NULL
+                            };
+static char *copyurlcmd[] = {"/bin/sh", "-c", "st-urlhandler -c",
+                             "externalpipe", NULL
+                            };
+     // "#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a",
+     // "#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a",
+     // "#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a",
+     // "#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a",
+     // "#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a",
+     // "#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a",
+     // "#a89984", "#928374", "#fb4934", "#b8bb26", "#fabd2f", "#83a598", "#d3869b",
+     // "#8ec07c", "#ebdbb2", [255] = 0, "#cccccc", "#555555", "#ebdbb2", "#282828",
+     // "#a89984", "#928374", "#fb4934", "#b8bb26", "#fabd2f", "#83a598", "#d3869b",
+     // "#8ec07c", "#ebdbb2", [255] = 0, "#cccccc", "#555555", "#ebdbb2", "#282828",
+     // "#a89984", "#928374", "#fb4934", "#b8bb26", "#fabd2f", "#83a598", "#d3869b",
+     // "#8ec07c", "#ebdbb2", [255] = 0, "#cccccc", "#555555", "#ebdbb2", "#282828",
+     // "#a89984", "#928374", "#fb4934", "#b8bb26", "#fabd2f", "#83a598", "#d3869b",
+     // "#8ec07c", "#ebdbb2", [255] = 0, "#cccccc", "#555555", "#ebdbb2", "#282828",
+     // "#a89984", "#928374", "#fb4934", "#b8bb26", "#fabd2f", "#83a598", "#d3869b",
+     // "#8ec07c", "#ebdbb2", [255] = 0, "#cccccc", "#555555", "#ebdbb2", "#282828",
+     // "#a89984", "#928374", "#fb4934", "#b8bb26", "#fabd2f", "#83a598", "#d3869b",
+     // "#8ec07c", "#ebdbb2", [255] = 0, "#cccccc", "#555555", "#ebdbb2", "#282828",
+static char *copyoutput[] = {"/bin/sh", "-c", "st-copyout", "externalpipe",
+                             NULL
+                            };
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
@@ -193,14 +282,21 @@ static Shortcut shortcuts[] = {
 	{ ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
 	{ ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
 	{ XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
-	{ TERMMOD,              XK_Prior,       zoom,           {.f = +1} },
-	{ TERMMOD,              XK_Next,        zoom,           {.f = -1} },
+    {TERMMOD, XK_Up, zoom, {.f = +1}},
+    {TERMMOD, XK_Down, zoom, {.f = -1}},
+	// { MODKEY,               XK_period,      zoom,           {.f = +1} },
+	// { MODKEY,               XK_comma,       zoom,           {.f = -1} },
 	{ TERMMOD,              XK_Home,        zoomreset,      {.f =  0} },
 	{ TERMMOD,              XK_C,           clipcopy,       {.i =  0} },
 	{ TERMMOD,              XK_V,           clippaste,      {.i =  0} },
 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
+	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
+  { MODKEY,		            XK_s,		        changealpha,	  {.f = -0.05} },
+  { MODKEY,		            XK_a,		        changealpha,	  {.f = +0.05} },
+  { MODKEY,		            XK_m,		        changealpha,	  {.f = +2.00} },
 };
 
 /*
