@@ -6,8 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font =
-    "JetBrainsMono Nerd Font:pixelsize=22:antialias=true:autohint=true";  //run fc-list
-static char *font2[] = { 
+    "JetBrainsMono Nerd Font:pixelsize=22:antialias=true:autohint=true"; // run fc-list
+static char *font2[] = {
     "Symbola:pixelsize=22:antialias=true:autohint=true" // Unicode
 };
 static int borderpx = 2;
