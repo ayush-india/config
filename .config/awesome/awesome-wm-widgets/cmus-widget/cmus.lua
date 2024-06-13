@@ -124,6 +124,16 @@ local function worker(user_args)
         cmus_widget.update()
     end
 
+    function cmus_widget:seek_plus()
+        spawn("cmus-remote -k +10")
+        cmus_widget.update()
+    end
+
+    function cmus_widget:seek_minus()
+        spawn("cmus-remote -k -10")
+        cmus_widget.update()
+    end
+
     function cmus_widget:play()
         spawn("cmus-remote -p")
         cmus_widget.update()
