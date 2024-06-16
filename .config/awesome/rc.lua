@@ -368,7 +368,7 @@ clientkeys = gears.table.join(
 -- Handling window states
 				awful.key({}, "XF86AudioPlay",  function () cmus_widget:play_pause()       end, {description = "play track",     group = "cmus"}),
 				awful.key({}, "XF86AudioNext",  function () cmus_widget:next_track() end, {description = "next track",     group = "cmus"}),
-				awful.key({}, "XF86AudioPrev",  function () cmus_widget:next_track() end, {description = "next track",     group = "cmus"}),
+				awful.key({}, "XF86AudioPrev",  function () cmus_widget:prev_track() end, {description = "next track",     group = "cmus"}),
 				awful.key({modkey}, "-",  function () cmus_widget:seek_plus() end, {description = "previous track", group = "cmus"}),
 				awful.key({modkey}, "0",  function () cmus_widget:seek_minus() end, {description = "previous track", group = "cmus"}),
 --   awful.key({}, "XF86AudioPlay", function()
