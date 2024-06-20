@@ -22,7 +22,12 @@ GIMP image editor
  rofi(app-launcher)
  vlc
 
- 
+### curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash -
+sudo apt-get install -y nodejs 
+
+update nodejs for pyright to wofuck
+
+
 NVIM config 
 i have my own config (inspired from nvchad's config)
 at https://github.com/ayush-india/.nvim
