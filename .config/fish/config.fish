@@ -1,4 +1,4 @@
-set fish_greeting "leran beldner, there is a fast way to compute prime no its p*p <= n  make calcutor terminal"
+set fish_greeting " make short note of at nigga ,leran beldner, there is a fast way to compute prime no its p*p <= n  make calcutor terminal"
 set -gx TERM xterm-256color
 set  fish_vi_key_bindings
 
@@ -16,6 +16,7 @@ set -gx TERMINAL st
 # aliases
 alias l "eza --icons=always --git"
 alias la "eza -all --icons=always --git"
+alias bat "bat -p"
 # alias pdf "MESA_GL_VERSION_OVERRIDE=2.1 MESA_GLSL_VERSION_OVERRIDE=330 sioyek"
 alias pdf "sioyek"
 alias ll "eza -l --icons=always --git"
