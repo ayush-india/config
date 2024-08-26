@@ -36,6 +36,7 @@ function n
 	rm -f -- "$tmp"
 end
 set -gx PATH bin $PATH
+set -gx PATH /usr/local/go/bin $PATH
 set -gx PATH ~/bin $PATH
 set -gx NNN_OPENER '~/.config/nnn/plugins/nuke'
 set -gx NNN_PLUG 'b:bulknew;d:diffs;f:fzcd;F:fzopen;l:launch;t:preview-tui;n:nuke;p:fzplug'
