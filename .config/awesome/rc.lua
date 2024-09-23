@@ -342,6 +342,10 @@ globalkeys = gears.table.join(
     awful.spawn.with_shell("sioyek") -- REMOVE MESA WHEN YOU GET A NEW PC ;))) GOT a new one bro
   end, { description = "Open sioyek pdf viewer", group = "launcher" }),
 
+  awful.key({ modkey }, "space", function()
+    awful.util.spawn("mpv /home/bro_grammer/Downloads/challenge.mp3")
+  end, { description = "Open motivation", group = "launcher" }),
+
   awful.key({ modkey }, "n", function()
     awful.util.spawn("goneovim")
   end, { description = "Open neovim", group = "launcher" }),
