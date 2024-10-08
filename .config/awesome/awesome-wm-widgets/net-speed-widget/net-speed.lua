@@ -25,10 +25,10 @@ local function convert_to_h(bytes)
         speed = bits
         dim = 'b/s'
     elseif bits < 1000000 then
-        speed = bits/1000
+        speed = bits/10000
         dim = 'kb/s'
     elseif bits < 1000000000 then
-        speed = bits/1000000
+        speed = bits/10000000 -- 1.4 mega bits per sec pe 14 mega bits TODO: gm
         dim = 'Mb/s'
     elseif bits < 1000000000000 then
         speed = bits/1000000000
