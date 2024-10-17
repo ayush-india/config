@@ -21,11 +21,9 @@
 .config/lazygit/state.yml
 .config/btop/btop.log
 .config/lazygit/state.yml
-
 .config/btop/btop.log
 .config/lazygit/state.yml
 .tmux/resurrect
-
 .tmux/plugins
 .config/st/st
 .config/st/x.o
@@ -56,8 +54,6 @@
 .config/QtProject.conf
 .config/godot
 .config/nnn/bookmarks
-.config/cmus
-.config/cava
 .config/so
 .config/blender/4.1/config
 .config/htop
@@ -69,4 +65,19 @@
 .config/screengrab
 .config/GIMP/2.10
 .config/unity3d
-.config
+.config/Dynacore
+.config/Kvantum
+.config/Postman
+.config/Thunar
+.config/Unknown Organization
+.config/ags
+.config/cava-backup-back-up_1016_1654
+.config/eog
+.config/fish
+.config/ghostwriter
+.config/go/telemetry/local
+.config/mpv/watch_later
+.config/qBittorrent
+.config/qt5ct
+.config/qt6ct
+.config/vlc
