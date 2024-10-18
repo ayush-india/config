@@ -29,6 +29,7 @@ GIMP image editor
 ### curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash -
 sudo apt-get install -y nodejs 
 
+istall rust, gcc,clang, and jo be hai uska latest version, dont go with build-essential(latest version isstall kiya then also check)
 update nodejs for pyright to wofuck
 
 
