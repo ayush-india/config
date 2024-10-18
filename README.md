@@ -16,11 +16,12 @@ GIMP image editor
  btop(proc-manager)
  picom
  fish (terminal-emulator) and alacatry
- lynx (the best web browser in the world)
+ lynx (the best web browser in the world) 
  jetbarins mono nerd font
  nitrogen
  rofi(app-launcher)
  vlc
+
 
 ### curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash -
 sudo apt-get install -y nodejs 
@@ -39,6 +40,8 @@ save new fonts in ~/.local/share/fonts and /usr/share/fonts/
 use fc-list(alacatry ka config file me hai command) to see if font installed
 
 see aeseome last commands to get to know how i make toucpad gestures working 
-
+#### DECORATIONS
 https://github.com/jsspencer/pomo isntall this and make simple symbolic link 
 `sudo ln -sf /opt/pomodoro/pomo.sh /usr/local/bin/pomo`
+
+lavat, pipes.sh, cboansi, cmatrix, fastfetch , rain.sh(in repo) more coming soon
