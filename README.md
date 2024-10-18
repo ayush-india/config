@@ -1,7 +1,10 @@
  Hello it is all of the config files which i use on my Lubuntu system 
 
+
 NOTE: remove all fish.tmp. files form the fish dir to remove all the temporaye enviroment variables
  required Prgrame to install
+
+https://github.com/oddmario/NVIDIA-Ubuntu-Driver-Guide
 
 stwich to g++ 12 for no error in nvim
 use eza insted of ls use zoxide use  use yazi
