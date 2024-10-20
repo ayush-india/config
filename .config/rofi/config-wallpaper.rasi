@@ -12,14 +12,6 @@ window {
   width: 60%;
 }
 
-/* ---- Imagebox ---- */
-imagebox {
-  orientation: vertical;
-  children:
-    [ "entry", "listbox"];
-}
-
-
 entry {
   expand: false;
   placeholder: "🎞️ Choose Wallpaper";
