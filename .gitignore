@@ -32,7 +32,6 @@
 .config/dconf
 .config/enchant
 .config/evolution/sources
-.config/fish/fish2
 .config/google-chrome
 .config/gnome-control-center/backgrounds
 .config/gtk-2.0
@@ -45,7 +44,6 @@
 .config/pulse
 .config/qalculate
 .config/ayush-india config main .config-awesome.zip
-.config/fish/fish_variables
 .vim/swaps
 .vim/undo
 .viminfo
@@ -74,7 +72,6 @@
 .config/ags
 .config/cava-backup-back-up_1016_1654
 .config/eog
-.config/fish
 .config/ghostwriter
 .config/go/telemetry/local
 .config/mpv/watch_later
