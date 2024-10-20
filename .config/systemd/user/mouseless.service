@@ -1,0 +1,8 @@
+[Unit]
+Description=mouseless
+
+[Service]
+ExecStart=/usr/bin/mouseless --config ~/.config/mouseless/config.yaml
+
+[Install]
+WantedBy=multi-user.target

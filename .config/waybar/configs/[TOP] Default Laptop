@@ -1,0 +1,73 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+
+// ### DEFAULT Top -Laptop ### //
+
+[{
+"include": "~/.config/waybar/modules",
+"layer": "top",
+//"mode": "dock",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 0,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 0,
+"margin-left": 8,
+"margin-right": 8,
+
+"modules-left": [
+	"hyprland/workspaces",
+    "group/motherboard",
+	"custom/separator#blank_3",
+	],
+
+"modules-center": [
+	"idle_inhibitor", 
+	"custom/separator#dot-line",
+	"clock#3",
+	"custom/separator#dot-line",
+	"custom/lock",
+	], 
+
+"modules-right": [
+	"network#speed",
+	"custom/separator#dot-line",
+	"custom/swaync",
+	"tray",
+	"mpris", 
+	"custom/separator#dot-line",
+	"bluetooth",
+	"custom/separator#dot-line", 
+	"battery",
+	"custom/separator#dot-line", 
+	"backlight",
+	"pulseaudio",
+	"custom/separator#dot-line",
+	"pulseaudio#microphone",
+	"custom/power",
+	],
+},
+
+{
+"include": "~/.config/waybar/modules",
+"layer": "bottom",
+"mode": "overlay",
+"exclusive": false,
+"passthrough": true,
+"position": "bottom",
+"spacing": 2,
+"fixed-center": false,
+"ipc": true,
+"height": 0,
+"margin-left": 700,
+"margin-right": 700,
+//"gtk-layer-shell": true,
+//"margin-bottom": 0,
+
+"modules-center": [
+	"custom/cava_mviz",
+	], 
+
+}],
+
