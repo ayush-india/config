@@ -119,3 +119,4 @@
 .config/lxqt-mimeapps.list
 .config/mimeapps.list
 .config/fish/fish_variables
+.cargo/.global-cache
