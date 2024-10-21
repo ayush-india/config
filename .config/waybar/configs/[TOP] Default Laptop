@@ -18,8 +18,14 @@
 
 "modules-left": [
 	"hyprland/workspaces",
-    "group/motherboard",
-	"custom/separator#blank_3",
+	"custom/separator#dot-line",
+	"temperature",
+	"custom/separator#blank", 
+	"cpu",
+	"custom/separator#blank", 
+	"memory",
+	"custom/separator#blank", 
+  "disk",
 	],
 
 "modules-center": [
