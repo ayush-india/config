@@ -17,7 +17,7 @@
 "margin-right": 8,
 
 "modules-left": [
-	"hyprland/workspaces",
+	"hyprland/workspaces#rw",
 	"custom/separator#dot-line",
 	"temperature",
 	"custom/separator#blank", 
