@@ -7,7 +7,7 @@
 ; mode = normal
 
 # Accepts only non-negative values.
-; framerate = 60
+ framerate = 144
 
 # 'autosens' will attempt to decrease sensitivity if the bars peak. 1 = on, 0 = off
 # new as of 0.6.0 autosens of low values (dynamic range)
@@ -158,7 +158,7 @@ gradient_color_8 = '{{color15}}'
 
 # Percentage value for integral smoothing. Takes values from 0 - 100.
 # Higher values means smoother, but less precise. 0 to disable.
-; integral = 77
+ integral = 100
 
 # Disables or enables the so-called "Monstercat smoothing" with or without "waves". Set to 0 to disable.
 ; monstercat = 0

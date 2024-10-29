@@ -7,7 +7,7 @@
 ; mode = normal
 
 # Accepts only non-negative values.
-; framerate = 60
+framerate = 144
 
 # 'autosens' will attempt to decrease sensitivity if the bars peak. 1 = on, 0 = off
 # new as of 0.6.0 autosens of low values (dynamic range)
@@ -143,14 +143,14 @@ source = auto
 gradient = 1
 
 gradient_count = 8
-gradient_color_1 = '#37393B'
-gradient_color_2 = '#061216'
-gradient_color_3 = '#22171E'
-gradient_color_4 = '#38353A'
-gradient_color_5 = '#ADA6AA'
-gradient_color_6 = '#652D3B'
-gradient_color_7 = '#4B474D'
-gradient_color_8 = '#ADA6AA'
+gradient_color_1 = '#000004'
+gradient_color_2 = '#466181'
+gradient_color_3 = '#904A4F'
+gradient_color_4 = '#B09868'
+gradient_color_5 = '#E7E9EE'
+gradient_color_6 = '#A7B197'
+gradient_color_7 = '#EBCB8B'
+gradient_color_8 = '#E7E9EE'
 
 [color]
 
@@ -158,7 +158,7 @@ gradient_color_8 = '#ADA6AA'
 
 # Percentage value for integral smoothing. Takes values from 0 - 100.
 # Higher values means smoother, but less precise. 0 to disable.
-; integral = 77
+integral = 100
 
 # Disables or enables the so-called "Monstercat smoothing" with or without "waves". Set to 0 to disable.
 ; monstercat = 0
