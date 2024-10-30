@@ -30,7 +30,7 @@
 	"format-icons": [
 		"󰈸"
 	],
-	"on-click-right": "kitty --title nvtop sh -c 'nvtop'"
+	"on-click-right": "st --title nvtop sh -c 'nvtop'"
 },
 "temperature#vertical": {
 	"interval": 10,
@@ -46,7 +46,7 @@
 	"format-icons": [
 		"󰈸"
 	],
-	"on-click-right": "kitty --title nvtop sh -c 'nvtop'"
+	"on-click-right": "st --title nvtop sh -c 'nvtop'"
 },
 
 // HYPRLAND WORKSPACES. CHOOSE as desired and place on waybar configs
@@ -462,7 +462,7 @@
 	"format-alt-click": "click",
 	"tooltip": true,
 	"tooltip-format": "{used:0.1f}GB/{total:0.1f}G",
-	"on-click-right": "kitty --title btop sh -c 'btop --uft-force'"
+	"on-click-right": "st --title btop sh -c 'btop --uft-force'"
 },
 "mpris": {
 	"interval": 10,
@@ -507,7 +507,7 @@
 	"format-icons": [
 		"󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
 	],
-	"on-click-right": "kitty nmtui"
+	"on-click-right": "st nmtui"
 },
 "network#speed": {
 	"interval": 1,
@@ -798,7 +798,7 @@
 	"format-alt-click": "click",
 	"tooltip": true,
 	"tooltip-format": "{used:0.1f}GB/{total:0.1f}G",
-	"on-click-right": "kitty --title btop sh -c 'btop'",
+	"on-click-right": "st --title btop sh -c 'btop --uft-force'"
 },
 "pulseaudio#vertical": {
 	"format": "{icon}",
