@@ -7,7 +7,7 @@
 "layer": "top",
 //"mode": "dock",
 "exclusive": true,
-"passthrough": true,
+"passthrough": false,
 "position": "top",
 "spacing": 0,
 "fixed-center": true,
