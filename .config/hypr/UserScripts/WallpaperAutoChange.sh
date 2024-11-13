@@ -19,7 +19,7 @@ fi
 
 # Edit below to control the images transition
 export SWWW_TRANSITION_FPS=60
-export SWWW_TRANSITION_TYPE=simple
+export SWWW_TRANSITION_TYPE=fade
 
 # This controls (in seconds) when to switch to the next image
 INTERVAL=1800
