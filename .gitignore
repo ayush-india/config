@@ -123,3 +123,4 @@
 .cargo/.crates.toml
 .cargo/.crates.toml
 .cargo/.crates2.json
+.config/pip/pip.conf
