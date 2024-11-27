@@ -124,3 +124,7 @@
 .cargo/.crates.toml
 .cargo/.crates2.json
 .config/pip/pip.conf
+.config/audacity
+.config/compiz-1/compizconfig
+.config/easytag
+.config/fish

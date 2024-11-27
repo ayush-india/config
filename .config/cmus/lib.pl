@@ -140,6 +140,7 @@
 /media/bro_grammer/music/Chillhop_Radio/One_Eye_Open.mp3
 /media/bro_grammer/music/Bass_Nation/Enigma.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Miss_This.mp3
+/media/bro_grammer/music/24_7.mp3
 /media/bro_grammer/music/Interstellar_vibes/Take_Me_Away.mp3
 /media/bro_grammer/music/Chillhop_Radio/Esfera_-_Instrumental.mp3
 /media/bro_grammer/music/Chillhop_Radio/Green_Tea.mp3
@@ -664,6 +665,7 @@
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-15 - Zmeyev, Screen Jazzmaster - First Glow.m4a
 /media/bro_grammer/music/Chillhop_Radio/Billie___Zanaho.mp3
 /media/bro_grammer/music/Discover_Weekly/Pretending_to_Sleep.mp3
+/media/bro_grammer/music/green to blue (ballad).mp3
 /media/bro_grammer/music/ATTITUDE_WITH_REVENGE_KILL_/Control.mp3
 /media/bro_grammer/music/RUSSIAN_HARDBASS_songs_/Ibanessa.mp3
 /media/bro_grammer/music/Motivational_Lofi_Beats/Cradle.mp3
@@ -1075,6 +1077,7 @@
 /media/bro_grammer/music/Daily_Mix_1/Breathe.mp3
 /media/bro_grammer/music/LoFi_EDM/Late_Night_-_Original_Mix.mp3
 /media/bro_grammer/music/Bass_Nation/Vortex.mp3
+/media/bro_grammer/music/memories.....mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-15 - Rudy Raw - Passenger Seat.m4a
 /media/bro_grammer/music/Bass_Nation/Conquer.mp3
 /media/bro_grammer/music/ATTITUDE_WITH_REVENGE_KILL_/Boom_Shakalarma.mp3
