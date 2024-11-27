@@ -6,7 +6,7 @@ NOTE: remove all fish.tmp. files form the fish dir to remove all the temporaye e
 
 https://github.com/oddmario/NVIDIA-Ubuntu-Driver-Guide
 
-stwich to g++ 12 for no error in nvim
+stwich to g++ 12 for no error in nvim, install arttime :)
 use eza insted of ls use zoxide use  use yazi
 sccahe (a cacheing system for rust)
 tmux comme u need it
@@ -45,7 +45,7 @@ use fc-list(alacatry ka config file me hai command) to see if font installed
 
 see aeseome last commands to get to know how i make toucpad gestures working 
 #### DECORATIONS
-https://github.com/jsspencer/pomo isntall this and make simple symbolic link 
+https://github.com/segf00lt/pomo.git isntall this and make simple symbolic link 
 `sudo ln -sf /opt/pomodoro/pomo.sh /usr/local/bin/pomo`
 
 lavat, pipes.sh, cboansi, cmatrix, fastfetch , rain.sh(in repo) more coming soon
