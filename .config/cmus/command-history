@@ -1,3 +1,5 @@
+pl-create interstellar
+q
 pl-create unreal
 pl-create
 tqueue 
@@ -6,7 +8,6 @@ colorscheme cya
 filter f
 filter 
 pl-create flawed_mangoes
-q
 pl-create random-good-stuff
 pl-create n++
 pl-create lock-in
@@ -24,7 +25,6 @@ pl-create peace
 pl-create chill
 pl-create dubstep
 pl-create social-network
-pl-create interstellar
 pl-create trap-nation
 pl-create lofi_edm
 pl-rename lofi
