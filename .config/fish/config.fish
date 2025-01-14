@@ -17,6 +17,8 @@ set -gx EDITOR nvim
 set -gx TERMINAL st
 
 # aliases
+alias 1 'arttime --nolearn -a vburger -g "7m;60m;loop4"'
+alias 2 'arttime --nolearn -a unix -g "60m;loop10"'
 alias l "eza --icons=always --git"
 alias la "eza -all --icons=always --git"
 alias nvim "~/nvim-linux64/bin/nvim"
