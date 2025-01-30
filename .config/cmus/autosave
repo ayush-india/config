@@ -1,4 +1,4 @@
-set aaa_mode=album
+set aaa_mode=artist
 set altformat_current= %F 
 set altformat_playlist= %f%= %d 
 set altformat_title=%f
@@ -102,7 +102,7 @@ set pl_env_vars=
 set pl_sort=
 set play_library=false
 set play_sorted=true
-set repeat=false
+set repeat=true
 set repeat_current=true
 set replaygain=disabled
 set replaygain_limit=true
@@ -116,7 +116,7 @@ set show_current_bitrate=false
 set show_hidden=false
 set show_playback_position=true
 set show_remaining_time=false
-set shuffle=albums
+set shuffle=off
 set skip_track_info=false
 set smart_artist_sort=true
 set softvol=false
