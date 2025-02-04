@@ -32,10 +32,8 @@
 /media/bro_grammer/music/Chillhop_Radio/Power_Off.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2019-07-30 - Dillon Francis & Alison Wonderland - Lost My Mind [NGHTMRE Remix].m4a
 /media/bro_grammer/music/daily_mix_4/KILL EM' ALL.mp3
-/media/bro_grammer/music/Interstellar_vibes/Starry_Night.mp3
 /media/bro_grammer/music/Chillhop_Radio/About_It.mp3
 /media/bro_grammer/music/EDM_Lofi/Into_The_Wild.mp3
-/media/bro_grammer/music/Interstellar_vibes/Another_Love_X_Experience.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-11-17 - Bogomolove - Sandy Sea.m4a
 /media/bro_grammer/music/Revenge_songs/Monster.mp3
 /media/bro_grammer/music/RUSSIAN_HARDBASS_songs_/Stresstest.mp3
@@ -53,7 +51,6 @@
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2020-02-23 - MEDIKAL - Destination Calabria.m4a
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-11-24 - Muni, Nosmoh - Devolving (Nosmoh Remix).m4a
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-11-30 - Stereo Fear - Stafylos Beach.m4a
-/media/bro_grammer/music/Interstellar_vibes/Memoir__02__06_12_09_.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-11-18 - coldbrew - When Birds Fly South.m4a
 /media/bro_grammer/music/Daily_Mix_1/Sleepwalker.mp3
 /media/bro_grammer/music/Daily_Mix_1/Mountains.mp3
@@ -70,7 +67,6 @@
 /media/bro_grammer/music/EDM_Lofi/Euphoria.mp3
 /media/bro_grammer/music/n++/Peverelist - The Grind.mp3
 /media/bro_grammer/music/Revenge_songs/Congratulations.mp3
-/media/bro_grammer/music/rapidsave.com_fal_percentage_ki_pratiksha_mtt_kro-yhzd8x6qrbpc1.mp4
 /media/bro_grammer/music/RUSSIAN_HARDBASS_songs_/Vice_City.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-13 - Natasha Ghosh, IMA, RINZ. - Dreamgate.m4a
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/THINKIN_OF_A_DRIVE_BY.mp3
@@ -148,7 +144,6 @@
 /media/bro_grammer/music/Bass_Nation/Enigma.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Miss_This.mp3
 /media/bro_grammer/music/24_7.mp3
-/media/bro_grammer/music/Interstellar_vibes/Take_Me_Away.mp3
 /media/bro_grammer/music/Chillhop_Radio/Esfera_-_Instrumental.mp3
 /media/bro_grammer/music/Chillhop_Radio/Green_Tea.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Belly_Dancer.mp3
@@ -225,7 +220,6 @@
 /media/bro_grammer/music/Best_of_Trap_Nation/C_U_Again.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/INCOMING.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-01 - David Chief, Notation - Notch.m4a
-/media/bro_grammer/music/Interstellar_vibes/Ode_to_Vivian.mp3
 /media/bro_grammer/music/Best_of_Trap_Nation/Show_You_off__feat__Xuitcasecity_.mp3
 /media/bro_grammer/music/Chillhop_Radio/Time_to_Chill.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2019-08-02 - Effin - Cabbage.m4a
@@ -249,7 +243,6 @@
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Blow_The_Socket.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Ultimatum.mp3
 /media/bro_grammer/music/peace/this is what inner peace feels like..mp3
-/media/bro_grammer/music/Interstellar_vibes/The_Imitation_Game.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2017-09-22 - Kendrick Lamar - HUMBLE. (Skrillex Remix).m4a
 /media/bro_grammer/music/chill/Chill_mix/Cứ Chill Thôi.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2016-01-26 - Omar LinX - Red Light Green Light.m4a
@@ -323,7 +316,6 @@
 /media/bro_grammer/music/EDM_Lofi/Midnight_Sun.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-11-22 - WOOLFSON - Settle.m4a
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2019-10-31 - Tisoki - Evil As Hell.m4a
-/media/bro_grammer/music/Interstellar_vibes/October.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Kids_Phonk.mp3
 /media/bro_grammer/music/LoFi_EDM/Sol.mp3
 /media/bro_grammer/music/Best_of_Trap_Nation/Cold_Blooded_Love.mp3
@@ -371,7 +363,6 @@
 /media/bro_grammer/music/Discover_Weekly/Mask_Off.mp3
 /media/bro_grammer/music/Chillhop_Radio/Street_Lights.mp3
 /media/bro_grammer/music/Chillhop_Radio/The_Loveliest_Dream.mp3
-/media/bro_grammer/music/Interstellar_vibes/Flowing.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2017-08-18 - Ookay - Thief (Flux Pavilion Remix).m4a
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Dark_Light.mp3
 /media/bro_grammer/music/Chillhop_Radio/Snoopy_s_House.mp3
@@ -424,7 +415,6 @@
 /media/bro_grammer/music/Chillhop_Radio/Lookaway.mp3
 /media/bro_grammer/music/chill/Chill_mix/Beautiful.mp3
 /media/bro_grammer/music/daily_mix_4/OUTCAST.mp3
-/media/bro_grammer/music/Interstellar_vibes/Cornfield_Chase_-_Piano_Version.mp3
 /media/bro_grammer/music/n++/Station - Coco Myalore.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-11-29 - $MASH, GXNXSIS, Azido 88 - Low Light.m4a
 /media/bro_grammer/music/EDM_Lofi/Aura.mp3
@@ -433,7 +423,6 @@
 /media/bro_grammer/music/LoFi_EDM/Melancholy_Groove.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-13 - Worldtraveller, Viktor Minsky - Haiku.m4a
 /media/bro_grammer/music/daily_mix_4/FALLEN.mp3
-/media/bro_grammer/music/Interstellar_vibes/Oceans_Apart.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2021-11-26 - Jonth - Chapters.m4a
 /media/bro_grammer/music/Best_of_Trap_Nation/Addicted_To_You.mp3
 /media/bro_grammer/music/Chillhop_Radio/Starlink.mp3
@@ -604,14 +593,12 @@
 /media/bro_grammer/music/Chillhop_Radio/Summer_s_Delight_.mp3
 /media/bro_grammer/music/Chillhop_Radio/A_Reminder.mp3
 /media/bro_grammer/music/Chillhop_Radio/Zoned.mp3
-/media/bro_grammer/music/Interstellar_vibes/Rue_des_trois_fr_res.mp3
 /media/bro_grammer/music/Daily_Mix_1/Flicker__feat__CHARLOT_.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2019-11-05 - Virtual Riot ft. Pearl Andersson - Lost It (VIP).m4a
 /media/bro_grammer/music/n++/Acronym - Nifelheim.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Swaggin__at_the_Partment.mp3
 /media/bro_grammer/music/Motivational_LoFi_Inspired_By_Oriental_Culture/Sakura_II.mp3
 /media/bro_grammer/music/EDM_Lofi/Sunset.mp3
-/media/bro_grammer/music/Interstellar_vibes/Together.mp3
 /media/bro_grammer/music/LoFi_EDM/Spin.mp3
 /media/bro_grammer/music/LoFi_EDM/Daydream.mp3
 /media/bro_grammer/music/Chillhop_Radio/Dando_Vueltas.mp3
@@ -665,7 +652,6 @@
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Losing_My_Mind__feat__Chrysana_.mp3
 /media/bro_grammer/music/Chillhop_Radio/Last_Up.mp3
 /media/bro_grammer/music/Revenge_songs/The_Struggle.mp3
-/media/bro_grammer/music/Interstellar_vibes/Silence.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-06 - Basmati, Lovis Tru - Obiah.m4a
 /media/bro_grammer/music/Motivational_LoFi_Inspired_By_Oriental_Culture/Samurai_Code.mp3
 /media/bro_grammer/music/RUSSIAN_HARDBASS_songs_/Vodovorot.mp3
@@ -676,7 +662,6 @@
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/666.mp3
 /media/bro_grammer/music/chill/Chill_mix/Stay Awhile.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-05 - SanelliX, SpoonBeats, DreamBetter - Lucid night.m4a
-/media/bro_grammer/music/Interstellar_vibes/Mia___Sebastian_s_Theme_x_Je_Te_Laisserai_Des_Mots.mp3
 /media/bro_grammer/music/daily_mix_4/Dream Space - Sped Up.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2020-06-30 - The Box - Medikal.m4a
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Dead_Inside.mp3
@@ -787,7 +772,6 @@
 /media/bro_grammer/music/n++/Rival Consoles - Voyager.mp3
 /media/bro_grammer/music/system.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Disaster.mp3
-/media/bro_grammer/music/Interstellar_vibes/G-Minor.mp3
 /media/bro_grammer/music/Best_of_Trap_Nation/Senses.mp3
 /media/bro_grammer/music/Chillhop_Radio/Shakshuka.mp3
 /media/bro_grammer/music/Bass_Nation/Reverence.mp3
@@ -801,7 +785,6 @@
 /media/bro_grammer/music/chill/Chill_mix/Swim.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-16 - Glimlip x Deauxnuts - All In.m4a
 /media/bro_grammer/music/Chillhop_Radio/Salt_Lamp.mp3
-/media/bro_grammer/music/Interstellar_vibes/Space_Song.mp3
 /media/bro_grammer/music/Bass_Nation/Death_Chill.mp3
 /media/bro_grammer/music/Motivational_LoFi_Inspired_By_Oriental_Culture/Konnichiwa__Chapter_2_.mp3
 /media/bro_grammer/music/Motivational_Lofi_Beats/somewhere_else.mp3
@@ -853,7 +836,6 @@
 /media/bro_grammer/music/Bass_Nation/Lacrimosa__GRIM_Remix_.mp3
 /media/bro_grammer/music/Daily_Mix_1/THINKING.mp3
 /media/bro_grammer/music/Daily_Mix_1/Like_Dat.mp3
-/media/bro_grammer/music/Interstellar_vibes/Distractions.mp3
 /media/bro_grammer/music/RUSSIAN_HARDBASS_songs_/Tri_Poloski.mp3
 /media/bro_grammer/music/Bass_Nation/VIOLENT.mp3
 /media/bro_grammer/music/daily_mix_4/Dream Space.mp3
@@ -871,7 +853,6 @@
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Savage.mp3
 /media/bro_grammer/music/EDM_Lofi/Golden.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2020-04-10 - Au5 - Inflex.m4a
-/media/bro_grammer/music/Interstellar_vibes/Star_Shopping.mp3
 /media/bro_grammer/music/Best_of_Trap_Nation/Without_You__feat__Sandro_Cavazza_.mp3
 /media/bro_grammer/music/Daily_Mix_1/Save_Me.mp3
 /media/bro_grammer/music/Bass_Nation/Oshi_Is_Dope.mp3
@@ -897,9 +878,9 @@
 /media/bro_grammer/music/Discover_Weekly 1/Mercury_Retrograde.mp3
 /media/bro_grammer/music/Chillhop_Radio/Blue_Moment.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2021-09-24 - Teminite - Raise The Black Flag.m4a
-/media/bro_grammer/music/noise/brown_noise.mp3
 /media/bro_grammer/music/The_Social_Network_Soundtrack/The_Gentle_Hum_of_Anxiety.mp3
 /media/bro_grammer/music/Chillhop_Radio/Special_Person.mp3
+/media/bro_grammer/music/noise/brown_noise.mp3
 /media/bro_grammer/music/Motivational_LoFi_Inspired_By_Oriental_Culture/Cyber_Lofi_Panda.mp3
 /media/bro_grammer/music/Chillhop_Radio/Magnitude.mp3
 /media/bro_grammer/music/Chillhop_Radio/Empty_Place.mp3
@@ -931,7 +912,6 @@
 /media/bro_grammer/music/ATTITUDE_WITH_REVENGE_KILL_/El_Shaddai.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Silence.mp3
 /media/bro_grammer/music/Best_of_Trap_Nation/Be_Together__feat__Wild_Belle__-_Vanic_Remix.mp3
-/media/bro_grammer/music/Interstellar_vibes/The_Departure.mp3
 /media/bro_grammer/music/Daily_Mix_1/Chicas__Silcrow_Remix_.mp3
 /media/bro_grammer/music/Daily_Mix_1/Desolation.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Never_Met_.mp3
@@ -943,7 +923,6 @@
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-08 - Emanuele Triglia - Gold Sun.m4a
 /media/bro_grammer/music/daily_mix_4/Dance on the Moon.mp3
 /media/bro_grammer/music/chill/Chill_mix/In My Mind.mp3
-/media/bro_grammer/music/Interstellar_vibes/Waltz.mp3
 /media/bro_grammer/music/Bass_Nation/M_I_A_.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2018-12-27 - Boogie T x Subtronics - Senpai.m4a
 /media/bro_grammer/music/Chillhop_Radio/OdeToYou.mp3
@@ -1122,10 +1101,8 @@
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-15 - Rudy Raw - Passenger Seat.m4a
 /media/bro_grammer/music/Bass_Nation/Conquer.mp3
 /media/bro_grammer/music/ATTITUDE_WITH_REVENGE_KILL_/Boom_Shakalarma.mp3
-/media/bro_grammer/music/Interstellar_vibes/November.mp3
 /media/bro_grammer/music/Bass_Nation/Pharaoh.mp3
 /media/bro_grammer/music/daily_mix_4/ENDLESS VOID.mp3
-/media/bro_grammer/music/Interstellar_vibes/Lost_Time.mp3
 /media/bro_grammer/music/Chillhop_Radio/Full_Circle.mp3
 /media/bro_grammer/music/The_Social_Network_Soundtrack/Soft_Trees_Break_the_Fall.mp3
 /media/bro_grammer/music/chill/Chill_mix/HONEST.mp3
@@ -1148,7 +1125,6 @@
 /media/bro_grammer/music/Chillhop_Radio/igloo_palace.mp3
 /media/bro_grammer/music/Revenge_songs/Oblivion.mp3
 /media/bro_grammer/music/Revenge_songs/Heathens__Remix_.mp3
-/media/bro_grammer/music/Interstellar_vibes/Dreamscape.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2020-10-23 - RUSKO & Dirt Monkey - Quarantinis.m4a
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Smoke.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/This_Sound.mp3
@@ -1165,13 +1141,11 @@
 /media/bro_grammer/music/EDM_Lofi/Love_In_My_Heart.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-08 - 7ove, Calvin Bennett - Blue Moon.m4a
 /media/bro_grammer/music/Chillhop_Radio/Snap_Back.mp3
-/media/bro_grammer/music/Interstellar_vibes/Van_Gogh.mp3
 /media/bro_grammer/music/n++/Volor Flex - Tramp.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2020-09-21 - QUIX - Gunning For You ft. Nevve (STRX Remix).m4a
 /media/bro_grammer/music/chill/Chill_mix/5AM.mp3
 /media/bro_grammer/music/EDM_Lofi/Tell_Me.mp3
 /media/bro_grammer/music/ATTITUDE_WITH_REVENGE_KILL_/Arabian_Night.mp3
-/media/bro_grammer/music/Interstellar_vibes/Je_te_laisserai_des_mots.mp3
 /media/bro_grammer/music/RUSSIAN_HARDBASS_songs_/Rock-Paper-Scissors.mp3
 /media/bro_grammer/music/Chillhop_Radio/Everlight.mp3
 /media/bro_grammer/music/chill/Chill_mix/The Sea.mp3
@@ -1200,7 +1174,6 @@
 /media/bro_grammer/music/Motivational_LoFi_Inspired_By_Oriental_Culture/Intro.mp3
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-11-22 - Calvin Bennett, Alannah Chapman - Umami Broth.m4a
 /media/bro_grammer/music/Chillhop_Radio/It_ll_Always_be_Alright.mp3
-/media/bro_grammer/music/Win The Morning, CONQUER THE DAY! Listen Every Day! MORNING MOTIVATION.mp4
 /media/bro_grammer/music/Motivational_LoFi_Inspired_By_Oriental_Culture/Japanese_Spring.mp3
 /media/bro_grammer/music/Bass_Nation/PRISM.mp3
 /media/bro_grammer/music/Bass_Nation/Corona.mp3
@@ -1228,7 +1201,6 @@
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Devil_Eyes.mp3
 /media/bro_grammer/music/Motivational_LoFi_Inspired_By_Oriental_Culture/Freshly_Ground.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Devil_Night.mp3
-/media/bro_grammer/music/videoplayback.mp4
 /media/bro_grammer/music/RUSSIAN_HARDBASS_songs_/Slav_King.mp3
 /media/bro_grammer/music/Revenge_songs/Need_You.mp3
 /media/bro_grammer/music/Revenge_songs/Falling.mp3
@@ -1264,7 +1236,6 @@
 /media/bro_grammer/music/Best_of_Trap_Nation/Superhero.mp3
 /media/bro_grammer/music/Chillhop_Radio/Lavender.mp3
 /media/bro_grammer/music/Bass_Nation/Bass_God.mp3
-/media/bro_grammer/music/Interstellar_vibes/Only.mp3
 /media/bro_grammer/music/chill/Chill_mix/Có Ai Thương Em Như Anh (feat. Touliver).mp3
 /media/bro_grammer/music/Best_of_Trap_Nation/Borderline_-_Vanic_Remix.mp3
 /media/bro_grammer/music/Best_of_Trap_Nation/Emotional.mp3
@@ -1274,13 +1245,11 @@
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-12-09 - Muni & TyLuv. - Everitt Hill.m4a
 /media/bro_grammer/music/peace/lofi/LoFi Rod's Chillhop Lounge/2022-11-23 - Mozzie - Round Round.m4a
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2019-10-03 - Pegboard Nerds - Computa Hakka (feat. Ragga Twins) [Monstercat Release].m4a
-/media/bro_grammer/music/Interstellar_vibes/Drifting_Away.mp3
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Shadow_Lady_-_DePaul_Remix.mp3
 /media/bro_grammer/music/Best_of_Trap_Nation/Phantasy_Star_Online.mp3
 /media/bro_grammer/music/RUSSIAN_HARDBASS_songs_/Samurai.mp3
 /media/bro_grammer/music/n++/Broca - Trépied.mp3
 /media/bro_grammer/music/Chillhop_Radio/Street_Glow.mp3
-/media/bro_grammer/music/Interstellar_vibes/Snow.mp3
 /media/bro_grammer/music/dubstep/Dubstep Bangers 2022 🔥/2021-12-03 - Black Tiger Sex Machine x Hairitage - Cheatcode ft. Hyro The Hero (Lyric Video).m4a
 /media/bro_grammer/music/tiktok_sigma/Energetic Atmosphere_the michael rd.mp3
 /media/bro_grammer/music/Chillhop_Radio/Kokon.mp3
@@ -1294,7 +1263,6 @@
 /media/bro_grammer/music/GIGACHAD_PLAYLIST/Pimp_Slap.mp3
 /media/bro_grammer/music/Daily_Mix_1/i_wrote_my_heart_on_a_postcard.mp3
 /media/bro_grammer/music/Revenge_songs/Say_You_Won_t_Let_Go.mp3
-/media/bro_grammer/music/Interstellar_vibes/Let_Go.mp3
 /media/bro_grammer/music/Motivational_Lofi_Beats/Trip_Back_Home.mp3
 /media/bro_grammer/music/n++/Hiss _ 1292 - Damballah (François X Wedo Mix) (François X).mp3
 /media/bro_grammer/music/daily_mix_4/CLOUD.mp3
