@@ -1,4 +1,5 @@
- Hello it is all of the config files which i use on my Lubuntu system 
+## chrome flags
+--ignore-gpu-blocklist --enable-overlay-scrollbar --enable-lazy-load --enable-gpu-rasterization --enable-zero-copy --enable-oop-rasterization
 
 
 NOTE: remove all fish.tmp. files form the fish dir to remove all the temporaye enviroment variables
