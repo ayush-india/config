@@ -8,7 +8,7 @@ NOTE: remove all fish.tmp. files form the fish dir to remove all the temporaye e
 https://github.com/oddmario/NVIDIA-Ubuntu-Driver-Guide
 
 stwich to g++ 12 for no error in nvim, install arttime :)
-use eza insted of ls use zoxide use  use yazi
+use eza insted of ls use zoxide use  use yazi, fd, fzf,rg
 sccahe (a cacheing system for rust)
 tmux comme u need it
 so (its in yout /usr/bin) a tui for stackvoerflwo
