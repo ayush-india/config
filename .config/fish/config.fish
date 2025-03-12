@@ -4,9 +4,8 @@ function fish_greeting
 end
 set -gx TERM xterm-256color
 set  fish_vi_key_bindings
-set fzf_fd_opts --no-ignore
-
-
+# set fzf_fd_opts --no-ignore
+set -g fzf_fd_opts --hidden --no-ignore
 # theme
 set -g theme_color_scheme terminal-dark
 set -g fish_prompt_pwd_dir_length 3
